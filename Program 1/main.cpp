@@ -8,8 +8,16 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+struct Value {
+    
+    int x;
+    Value * p;
+    
+};
+
+int main() {
+    
+    
+    
     return 0;
 }

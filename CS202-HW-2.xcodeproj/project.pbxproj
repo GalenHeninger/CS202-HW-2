@@ -41,7 +41,7 @@
 		F8B9BDBC25D4799700A32F9F = {
 			isa = PBXGroup;
 			children = (
-				F8B9BDC725D4799700A32F9F /* CS202-HW-2 */,
+				F8B9BDC725D4799700A32F9F /* Program 1 */,
 				F8B9BDC625D4799700A32F9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +54,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8B9BDC725D4799700A32F9F /* CS202-HW-2 */ = {
+		F8B9BDC725D4799700A32F9F /* Program 1 */ = {
 			isa = PBXGroup;
 			children = (
 				F8B9BDC825D4799700A32F9F /* main.cpp */,
 			);
-			path = "CS202-HW-2";
+			path = "Program 1";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
