@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F86E016825D5F0E100AA7B4C /* catch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = catch.h; sourceTree = "<group>"; };
 		F8B9BDC525D4799700A32F9F /* CS202-HW-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS202-HW-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B9BDC825D4799700A32F9F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B9BDC825D4799700A32F9F /* main.cpp */,
+				F86E016825D5F0E100AA7B4C /* catch.h */,
 			);
 			path = "Program 1";
 			sourceTree = "<group>";
