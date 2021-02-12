@@ -35,25 +35,44 @@ TEST_CASE() {
     
     
     metadata B;
-    A.author = "Kennedy, John F. (John Fitzgerald)";
-    A.url = "http://www.gutenberg.org/files/3/3.txt";
-    A.language = "en";
-    A.rights = "Public domain in the USA.";
-    A.subject = "United States -- Foreign relations -- 1961-1963";
-    A.title = "John F. Kennedy's Inaugural Address";
+    B.author = "Kennedy, John F. (John Fitzgerald)";
+    B.url = "http://www.gutenberg.org/files/3/3.txt";
+    B.language = "en";
+    B.rights = "Public domain in the USA.";
+    B.subject = "United States -- Foreign relations -- 1961-1963";
+    B.title = "John F. Kennedy's Inaugural Address";
     
     
     // Linked list with list header
     list<metadata> list1({A});
     list<metadata> list2({A, B});
     
+    // Queue
     list1.push_back(B);
     
-    // Testing the equality of the actual lists causes an error
+    // Testing the equality of the lists causes an error
     REQUIRE(list1.size() == list2.size());
     
     list1.pop_front();
     REQUIRE(list1.size() == 1);
     
+    // Stack
+    list2.pop_back();
+    REQUIRE(list2.size() == 1);
+    list2.push_back(B);
+    
+    // Find and insert
+    // Catch causes an error
+//    auto it = std::find(list2.begin(), list2.end(), B);
+//    if (it != list2.end()) {
+//        list2.insert(it, A);
+//    }
+//
+//    REQUIRE(list2.size() == 3);
+    
+    // Print list2
+    for (auto const &element:list2) {
+        std::cout << element.author << std::endl;
+    }
     
 };
