@@ -17,16 +17,16 @@ struct Value {
 };
 
 TEST_CASE() {
-    //Linked list with list header
-    list<Value> a_list;
+    
     Value A;
-    a_list.push_back(A);
-    a_list.pop_back();
-    REQUIRE(0.0 == 0.0);
+    Value B;
+    
+    //Linked list with list header
+    list<Value> list1({A});
+    list<Value> list2({A, B});
+    
+    list1.push_back(B);
+    
+    REQUIRE(list1.size() == list2.size());
+    
 };
-
-//int main() {
-//
-//
-//    return 0;
-//}
