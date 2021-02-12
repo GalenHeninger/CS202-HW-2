@@ -67,8 +67,6 @@ TEST_CASE() {
 //    if (it != list2.end()) {
 //        list2.insert(it, A);
 //    }
-//
-//    REQUIRE(list2.size() == 3);
     
     // Print list2
     for (auto const &element:list2) {

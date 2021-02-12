@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F89B1C1625D70603001DC0F3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89B1C1525D70603001DC0F3 /* main.cpp */; };
 		F8B9BDC925D4799700A32F9F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B9BDC825D4799700A32F9F /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		F89B1C1125D70603001DC0F3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		F8B9BDC325D4799700A32F9F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -24,11 +34,20 @@
 
 /* Begin PBXFileReference section */
 		F86E016825D5F0E100AA7B4C /* catch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = catch.h; sourceTree = "<group>"; };
+		F89B1C1325D70603001DC0F3 /* Program 2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Program 2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89B1C1525D70603001DC0F3 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F8B9BDC525D4799700A32F9F /* CS202-HW-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "CS202-HW-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B9BDC825D4799700A32F9F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F89B1C1025D70603001DC0F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8B9BDC225D4799700A32F9F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -39,10 +58,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F89B1C1425D70603001DC0F3 /* Program 2 */ = {
+			isa = PBXGroup;
+			children = (
+				F89B1C1525D70603001DC0F3 /* main.cpp */,
+			);
+			path = "Program 2";
+			sourceTree = "<group>";
+		};
 		F8B9BDBC25D4799700A32F9F = {
 			isa = PBXGroup;
 			children = (
 				F8B9BDC725D4799700A32F9F /* Program 1 */,
+				F89B1C1425D70603001DC0F3 /* Program 2 */,
 				F8B9BDC625D4799700A32F9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				F8B9BDC525D4799700A32F9F /* CS202-HW-2 */,
+				F89B1C1325D70603001DC0F3 /* Program 2 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +96,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F89B1C1225D70603001DC0F3 /* Program 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89B1C1925D70603001DC0F3 /* Build configuration list for PBXNativeTarget "Program 2" */;
+			buildPhases = (
+				F89B1C0F25D70603001DC0F3 /* Sources */,
+				F89B1C1025D70603001DC0F3 /* Frameworks */,
+				F89B1C1125D70603001DC0F3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Program 2";
+			productName = "Program 2";
+			productReference = F89B1C1325D70603001DC0F3 /* Program 2 */;
+			productType = "com.apple.product-type.tool";
+		};
 		F8B9BDC425D4799700A32F9F /* CS202-HW-2 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F8B9BDCC25D4799700A32F9F /* Build configuration list for PBXNativeTarget "CS202-HW-2" */;
@@ -93,6 +139,9 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = Galen;
 				TargetAttributes = {
+					F89B1C1225D70603001DC0F3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 					F8B9BDC425D4799700A32F9F = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -112,11 +161,20 @@
 			projectRoot = "";
 			targets = (
 				F8B9BDC425D4799700A32F9F /* CS202-HW-2 */,
+				F89B1C1225D70603001DC0F3 /* Program 2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F89B1C0F25D70603001DC0F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89B1C1625D70603001DC0F3 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8B9BDC125D4799700A32F9F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +186,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F89B1C1725D70603001DC0F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F89B1C1825D70603001DC0F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		F8B9BDCA25D4799700A32F9F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -256,6 +330,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F89B1C1925D70603001DC0F3 /* Build configuration list for PBXNativeTarget "Program 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89B1C1725D70603001DC0F3 /* Debug */,
+				F89B1C1825D70603001DC0F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F8B9BDC025D4799700A32F9F /* Build configuration list for PBXProject "CS202-HW-2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
