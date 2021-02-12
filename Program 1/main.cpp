@@ -6,6 +6,7 @@
 //  Copyright © 2021 Galen. All rights reserved.
 //
 
+#define CATCH_CONFIG_MAIN
 #include <iostream>
 #include <list>
 #include "catch.h"
@@ -15,13 +16,17 @@ struct Value {
     int x;
 };
 
-int main() {
-    
+TEST_CASE() {
     //Linked list with list header
     list<Value> a_list;
     Value A;
     a_list.push_back(A);
-    
-    
-    return 0;
-}
+    a_list.pop_back();
+    REQUIRE(0.0 == 0.0);
+};
+
+//int main() {
+//
+//
+//    return 0;
+//}
