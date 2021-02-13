@@ -64,5 +64,7 @@ int main() {
     cout << "The addresses of the elements of the dynamically allocated array increase for higher indices.\n";
     cout << endl;
     
+    delete[] p;
+    
     return 0;
 }
